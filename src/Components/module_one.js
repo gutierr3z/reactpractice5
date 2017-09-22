@@ -10,9 +10,9 @@ class ModuleOne extends Component {
     };
 
     render() {
-        console.log('tets',css, css.testx)
+        
         return (
-            <div className={css.testx}>
+            <div className = { css.test }>
                 Hello World 1
             </div>
         );
