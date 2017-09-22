@@ -72,4 +72,6 @@ npm run compile
 //--------------------------------------------------
 CSS MODULES
 
-npm install --save css-loader
+npm install --save-dev css-loader
+npm install --save style-loader
+npm install --save extract-text-webpack-plugin
