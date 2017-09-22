@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 // require( './Components/module_one.css' );
 //--------------------------------------------------
 import ModuleOne from './Components/module_one';
+import ModuleTwo from './Components/module_two';
 //==================================================
 class APP extends Component {
 
@@ -17,6 +18,7 @@ class APP extends Component {
             <div>
                 hello there!
                 <ModuleOne />
+                <ModuleTwo />
             </div>
         );
     };
