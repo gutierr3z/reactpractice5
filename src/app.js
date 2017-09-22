@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+// require( './Components/module_one.css' );
 //--------------------------------------------------
-
+import ModuleOne from './Components/module_one';
 //==================================================
 class APP extends Component {
 
@@ -12,10 +13,11 @@ class APP extends Component {
 
     render() {
         return (
-            <div className="container oo-main">
-
-            </div>
             
+            <div>
+                hello there!
+                <ModuleOne />
+            </div>
         );
     };
 };
