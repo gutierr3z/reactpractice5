@@ -70,3 +70,6 @@ add "compile": "webpack", to package.json's scripts
 npm run compile
 
 //--------------------------------------------------
+CSS MODULES
+
+npm install --save css-loader
